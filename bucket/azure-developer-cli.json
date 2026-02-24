@@ -1,5 +1,5 @@
 {
-    "version": "1.23.1",
+    "version": "1.23.6",
     "description": "A developer CLI that provides commands for working with Azure resources that map to key workflow stages: code, build, deploy, monitor, repeat.",
     "homepage": "https://aka.ms/azd",
     "license": "MIT",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.23.1/azd-windows-amd64.zip",
-            "hash": "eb58c127abe6ee6c479b17efe8ade74ebd522db7203ab8716254a2fc539fbdd4"
+            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.23.6/azd-windows-amd64.zip",
+            "hash": "8d1040b1a42970da0e8b738bca303d3da3512f7edf6098d7f010c6003451568e"
         },
         "arm64": {
-            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.23.1/azd-windows-arm64-alpha.zip",
-            "hash": "bc6671423b656a41df8a4c85f7ada864035799e36411e73dab41f4e3c4192eae"
+            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.23.6/azd-windows-arm64-alpha.zip",
+            "hash": "04ebdca7265f56c652c417f924175dbcb8f3eb2e28d8f2847a391adcd837ca91"
         }
     },
     "pre_install": "Get-Item \"$dir\\azd-*.exe\" | Rename-Item -NewName \"azd.exe\"",

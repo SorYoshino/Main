@@ -1,12 +1,12 @@
 {
-    "version": "1.15.6",
+    "version": "1.16.2",
     "description": "Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy that allows to read, publish and proxy video and audio streams",
     "homepage": "https://github.com/bluenviron/mediamtx",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bluenviron/mediamtx/releases/download/v1.15.6/mediamtx_v1.15.6_windows_amd64.zip",
-            "hash": "3e9895cfb38c50ab827aa0be3324e13b16b72d210d6c14e1e8dbb2e8fdb79cef"
+            "url": "https://github.com/bluenviron/mediamtx/releases/download/v1.16.2/mediamtx_v1.16.2_windows_amd64.zip",
+            "hash": "c74469dee69c8ec5a65912041c093ba5a411025f36b37b4ead7686a1e4bdaead"
         }
     },
     "bin": "mediamtx.exe",
